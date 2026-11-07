@@ -1,0 +1,6 @@
+{"timestamp":"2026-08-24T15:00:00+00:00","event":"router_decision","question":"How does multi-head attention work in the paper?","route":"pdf","rationale":"The question targets concepts in the domain PDF."}
+{"timestamp":"2026-08-24T15:00:01+00:00","event":"retrieval","route":"pdf","tool":"PDFSearchTool","result_count":3}
+{"timestamp":"2026-08-24T15:00:02+00:00","event":"answer","grounded":true,"source_count":1}
+{"timestamp":"2026-08-24T15:01:00+00:00","event":"router_decision","question":"What are the latest Transformer efficiency results?","route":"web","rationale":"The question asks for time-sensitive information."}
+{"timestamp":"2026-08-24T15:01:01+00:00","event":"retrieval","route":"web","tool":"TavilySearchResults","status":"offline_demo"}
+{"timestamp":"2026-08-24T15:01:02+00:00","event":"answer","grounded":true,"source_count":1}
